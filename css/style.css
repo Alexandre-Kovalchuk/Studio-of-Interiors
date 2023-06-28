@@ -4114,9 +4114,13 @@ body._lock {
     grid-row-gap: 6px;
     margin-bottom: 7px;
   }
+  .projects__image-img {
+    height: 672px;
+  }
   .projects__image-img img {
     width: 100%;
-    height: auto;
+    height: 100%;
+    object-fit: cover;
   }
   .projects__image-about {
     opacity: 1;
@@ -4254,12 +4258,17 @@ body._lock {
   .projects__image {
     margin-top: 64px;
   }
-  .projects__image-firstrow {
-    margin-bottom: 7px;
+  .projects__image-img {
+    width: 327px;
+    height: 327px;
   }
   .projects__image-img img {
-    width: 100%;
-    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .projects__image-firstrow {
+    margin-bottom: 7px;
   }
   .projects__image-about {
     padding: 22px 0 25px 24px;
