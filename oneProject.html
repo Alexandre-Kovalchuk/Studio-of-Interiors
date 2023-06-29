@@ -234,10 +234,135 @@
                </div>
             </div>
          </section>
+
       </main>
+      <div class="popup ">
+   <button class="popup__close">
+      <img src="img/main/close.svg" alt="close-btn">
+   </button>
+
+   <div class="popup__container">
+      <form class="popup__form">
+         <fieldset class="popup__form-first popup__first">
+            <h2 class="popup__first-title">Calculate the cost of work</h2>
+            <h3 class="popup__first-subtitle">Make request</h3>
+
+            <div class="popup__first-name">
+               <input class="popup__first-inp" type="text" id="name" name="name" placeholder="Name" required>
+
+               <input class="popup__first-inp" type="text" id="last-name" name="last-name" placeholder="Last name"
+                  required>
+            </div>
+
+            <div class="popup__first-phone">
+               <input class="popup__first-inp" type="tel" id="phone" name="phone" placeholder="Phone" required>
+
+               <input class="popup__first-inp" type="text" id="city" name="city" placeholder="Your city" required>
+            </div>
+            <div class="popup__first-email">
+               <input class="popup__first-inp" type="email" id="email" name="email" placeholder="Email" required>
+
+               <div class="popup__first-select">
+                  <span class="popup__first-current">Property type</span>
+                  <div class="popup__first-arrow"><img src="img/main/arrow-down.svg" alt="arrow-down"></div>
+                  <ul class="popup__first-list">
+                     <li class="popup__first-item">House</li>
+                     <li class="popup__first-item">Apartment</li>
+                     <li class="popup__first-item">Condo</li>
+                     <li class="popup__first-item">Other</li>
+                  </ul>
+               </div>
+            </div>
+            <div class="popup__first-comment">
+               <input class="popup__first-inp popup__first-inpcomment" id="comment" name="comment" type="text"
+                  placeholder="Your comment" required>
+            </div>
+         </fieldset>
+         <fieldset class="popup__form-second popup__second">
+            <h2 class="popup__second-title">Area (m2)</h2>
+            <div class="popup__second-row">
+               <div class="popup__second-box">
+                  <label for="to50">to 50</label>
+                  <input class="popup__second-inp" type="radio" id="to50" name="range" value="to 50">
+               </div>
+
+               <div class="popup__second-box">
+                  <label for="from50to150">50-150</label>
+                  <input class="popup__second-inp" type="radio" id="from50to150" name="range" value="50-150">
+               </div>
+
+               <div class="popup__second-box">
+                  <label for="from150to250">150-250</label>
+                  <input class="popup__second-inp" type="radio" id="from150to250" name="range" value="150-250">
+               </div>
+
+               <div class="popup__second-box">
+                  <label for="from250to400">250-400</label>
+                  <input class="popup__second-inp" type="radio" id="from250to400" name="range" value="250-400">
+               </div>
+
+               <div class="popup__second-box">
+                  <label for="from400to600">400-600</label>
+                  <input class="popup__second-inp" type="radio" id="from400to600" name="range" value="400-600">
+               </div>
+
+               <div class="popup__second-box">
+                  <label for="from600to800">600-800</label>
+                  <input class="popup__second-inp" type="radio" id="from600to800" name="range" value="600-800">
+               </div>
+
+               <div class="popup__second-box">
+                  <label for="from800to1000">800-1000</label>
+                  <input class="popup__second-inp" type="radio" id="from800to1000" name="range" value="800-1000">
+               </div>
+
+               <div class="popup__second-box">
+                  <label for="1000+">1000+</label>
+                  <input class="popup__second-inp" type="radio" id="1000+" name="range" value="800-1000">
+               </div>
+
+            </div>
+
+            <div class="popup__group-photo">
+               <div class="popup__add-photo">
+                  <input class="popup__input-foto _req" type="file" name="photo" id="photo" accept="image/*" />
+                  <div class="popup__preview">
+                     <p></p>
+                  </div>
+               </div>
+               <div class="popup__item-photo">
+                  <label for="photo">
+                     <div class="popup__img-add-photo"></div>
+                  </label>
+                  <div class="popup__coment-photo">
+                     <p>Attach your file</p>
+                     <p class="popup__note-photo">File size not more than 10 MB</p>
+                  </div>
+               </div>
+
+               <input type="submit" value="Send Request" class="popup__buttom popup-link" id="btn" href="#popup2" />
+            </div>
+
+            <p class="popup__text">
+               It is a long established fact that a reader will be distracted by the readable content of a page when
+               looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution
+               of letters, as opposed to using 'Content here, content here', making it look like readable English.
+            </p>
+
+
+
+   </div>
+
+   </fieldset>
+   </form>
+
+</div>
+
+</div>
       
    </div>
-   <script src="js/app.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
 </body>
 
 </html>
