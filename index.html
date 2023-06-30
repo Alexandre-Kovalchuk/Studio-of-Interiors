@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Студія інтер'єрів - професійні проектування та оформлення приміщень. Унікальні та функціональні інтер'єри для житлових, комерційних та офісних приміщень.">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 	<link rel="stylesheet" href="css/style.min.css">
 	<title>Main</title>
@@ -15,7 +16,7 @@
 		<header class="header">
    <div class="header__container">
       <div class="header__logo">
-         <a class="header__logo-link" href="index.html">Logo</a>
+         <a title="Logo" class="header__logo-link" href="index.html">Logo</a>
       </div>
       <div class="header__menu menu">
          <div class="menu__box">
@@ -26,11 +27,11 @@
          </div>
          <nav class="menu__body">
             <ul class="menu__list">
-               <li class="menu__item"><a href="index.html" class="menu__link">Home</a></li>
-               <li class="menu__item"><a href="project.html" class="menu__link">Projects</a></li>
-               <li class="menu__item"><a href="about.html" class="menu__link">About us</a></li>
-               <li class="menu__item"><a href="news.html" class="menu__link">Blog</a></li>
-               <li class="menu__item"><a href="contact.html" class="menu__link">Contacts</a></li>
+               <li class="menu__item"><a title="Main" href="index.html" class="menu__link">Home</a></li>
+               <li class="menu__item"><a title="Project" href="project.html" class="menu__link">Projects</a></li>
+               <li class="menu__item"><a title="About" href="about.html" class="menu__link">About us</a></li>
+               <li class="menu__item"><a title="News" href="news.html" class="menu__link">Blog</a></li>
+               <li class="menu__item"><a title="Contact" href="contact.html" class="menu__link">Contacts</a></li>
             </ul>
             <div class="menu__send ">
                <button class="menu__send-btn send-btn">Send Request</button>
@@ -49,22 +50,42 @@
 					<div class="banner__wrapper swiper-wrapper">
 						<div class="banner__slide swiper-slide">
 							<div class="banner__item">
-								<img src="img/main/banner/slide1.webp" alt="Kitchen">
+								<picture>
+									<source type="image/webp" srcset="img//main/banner/slide1.webp">
+									<source type="image/png" srcset="img//main/banner/slide1.png">
+									<img src="img/main/banner/slide1.webp" alt="Living room" title="Living room" loading="lazy">
+								</picture>
+							
 							</div>
 						</div>
 						<div class="banner__slide swiper-slide">
 							<div class="banner__item">
-								<img src="img/main/banner/slide2.webp" alt="Living room" />
+								<picture>
+									<source type="image/webp" srcset="img//main/banner/slide2.webp">
+									<source type="image/png" srcset="img//main/banner/slide2.png">
+									<img src="img/main/banner/slide2.webp" alt="Living room" title="Living room" loading="lazy">
+								</picture>
+								
 							</div>
 						</div>
 						<div class="banner__slide swiper-slide">
 							<div class="banner__item">
-								<img src="img/main/banner/slide3.webp" alt="living room darck" />
+								<picture>
+									<source type="image/webp" srcset="img//main/banner/slide3.webp">
+									<source type="image/png" srcset="img//main/banner/slide3.png">
+									<img src="img/main/banner/slide3.webp" alt="Living room" title="Living room" loading="lazy">
+								</picture>
+								
 							</div>
 						</div>
 						<div class="banner__slide swiper-slide">
 							<div class="banner__item">
-								<img src="img/main/banner/slide4.webp" alt="kitchen darck" />
+								<picture>
+									<source type="image/webp" srcset="img//main/banner/slide4.webp">
+									<source type="image/png" srcset="img//main/banner/slide4.png">
+									<img src="img/main/banner/slide4.webp" alt="Living room" title="Living room" loading="lazy">
+								</picture>
+								
 							</div>
 						</div>
 					</div>
@@ -72,12 +93,12 @@
 				<div class="banner__container">
 					<div class="banner__content">
 						<h1 class="banner__content-title">Thoughtful making of space</h1>
-						<a class="banner__content-link" href="#">Discover more</a>
+						<a  class="banner__content-link" href="#">Discover more</a>
 					</div>
 
 					<div class="banner__nav">
 						<div class="banner__nav-btnprev">
-							<img src="img/main/arrow-prev.svg" alt="arrow-prev">
+							<img src="img/main/arrow-prev.svg" alt="arrow-prev" title="arrow-prev">
 						</div>
 						<div class="banner__nav-numberprev number">
 							<p>01</p>
@@ -89,18 +110,18 @@
 							<p>04</p>
 						</div>
 						<div class="banner__nav-btnnext">
-							<img src="img/main/arrow-next.svg" alt="arrow-next" />
+							<img src="img/main/arrow-next.svg" alt="arrow-next" title="arrow-next">
 						</div>
 					</div>
 
 					<div class="banner__vertical">
 						<picture class="banner__vertical-desctop">
 							<source media="(max-width:1024px)" srcset="img/main/banner/textDecktop.svg">
-							<img src="img/main/banner/text.svg" alt="">
+							<img src="img/main/banner/text.svg" alt="About" title="About">
 						</picture>
 						<picture class="banner__vertical-mobile">
 							<source media="(max-width:375px)" srcset="img/main/banner/textMobile.svg">
-							<img src="img/main/banner/textTablet.svg" alt="">
+							<img src="img/main/banner/textTablet.svg" alt="About" title="About">
 						</picture>
 					</div>
 
@@ -112,29 +133,28 @@
 						</div>
 						<div class="banner__info-select">
 							<div class="banner__info-location">
-								<img src="img/main/location.svg" alt="location">
+								<img src="img/main/location.svg" alt="Location" title="Location">
 							</div>
 							<p>Berlin</p>
 							<div class="banner__info-arrow">
-								<img src="img/main/arrow.svg" alt="arrow-down">
+								<img src="img/main/arrow.svg" alt="arrow-down" title="arrow-down">
 							</div>
 						</div>
 						<div class="banner__info-contact">
-							<a href="tel:+380983527547">+380983527547</a>
-							<a href="mailto:E: info@gmail.com">E: info@gmail.com</a>
-							<a href="mailto:info@hi-light.pl">info@hi-light.pl</a>
+							<a title="Number phone" href="tel:+380983527547">+380983527547</a>
+							<a title="Email" href="mailto:E: info@gmail.com">E: info@gmail.com</a>
+							<a title="Email" href="mailto:info@hi-light.pl">info@hi-light.pl</a>
 						</div>
 
 					</div>
 
 				</div>
-
 			</section>
 			<section class="philosophy ">
 				<div class="philosophy__container">
 					<div class="philosophy__firstrow">
 						<div class="philosophy__firstrow-verticaltext">
-							<img src="img/main/about.svg" alt="about text">
+							<img src="img/main/about.svg" alt="About" title="About">
 						</div>
 						<div class="philosophy__firstrow-item">
 							<h2 class="philosophy__firstrow-title">Company Philosophy </h2>
@@ -154,13 +174,13 @@
 									retro? Love everything associated with the 1940's? No problem!
 								</li>
 							</ul>
-							<a class="philosophy__firstrow-link" href="#">Discover more</a>
+							<a class="philosophy__firstrow-link" href="#" title="Discover more">Discover more</a>
 						</div>
 						<div class="philosophy__firstrow-image">
 							<picture>
 								<source type="image/webp" srcset="img/main/philosophy/image1.webp">
 								<source type="image/png" srcset="img/main/philosophy/image1.png">
-								<img src="img/main/philosophy/image1.webp" alt="Living room">
+								<img src="img/main/philosophy/image1.webp" alt="Living room" title="Living room" loading="lazy">
 							</picture>
 						</div>
 					</div>
@@ -170,14 +190,14 @@
 								<picture>
 									<source type="image/webp" srcset="img/main/philosophy/image2.webp">
 									<source type="image/png" srcset="img/main/philosophy/image2.png">
-									<img src="img/main/philosophy/image2.webp" alt="room">
+									<img src="img/main/philosophy/image2.webp" alt="Room" title="Room" loading="lazy">
 								</picture>
 							</div>
 							<div class="philosophy__secondrow-imagebottom">
 								<picture>
 									<source type="image/webp" srcset="img/main/philosophy/image3.webp">
 									<source type="image/png" srcset="img/main/philosophy/image3.png">
-									<img src="img/main/philosophy/image3.webp" alt="room">
+									<img src="img/main/philosophy/image3.webp" alt="Room" title="Room" loading="lazy">
 								</picture>
 							</div>
 						</div>
@@ -190,7 +210,7 @@
 							<span>”</span>
 						</div>
 						<div class="philosophy__secondrow-verticaltext">
-							<img src="img/main/ceo.svg" alt="ceo text">
+							<img src="img/main/ceo.svg" alt="CEO" title="CEO">
 						</div>
 					</div>
 				</div>
@@ -210,7 +230,7 @@
 								<picture>
 									<source type="image/webp" srcset="img/main/project/img1.webp">
 									<source type="image/png" srcset="img/main/project/img1.png">
-									<img src="img/main/project/img1.webp" alt="kitchen">
+									<img src="img/main/project/img1.webp" alt="Kitchen" title="Kitchen" loading="lazy">
 								</picture>
 							</div>
 							<div class="project__firstrow-about">
@@ -222,7 +242,7 @@
 								<div class="project__firstrow-name">
 									<h3 class="project__firstrow-subtitle">Eyewear store interior</h3>
 									<div class="project__firstrow-sublink">
-										<a href="#">Discover more</a>
+										<a title="Discover more" href="#">Discover more</a>
 									</div>
 								</div>
 							</div>
@@ -232,7 +252,7 @@
 								<picture>
 									<source type="image/webp" srcset="img/main/project/imgmobile.webp">
 									<source type="image/png" srcset="img/main/project/imgmobile.png">
-									<img src="img/main/project/imgmobile.webp" alt="kitchen">
+									<img src="img/main/project/imgmobile.webp" alt="Kitchen" title="Kitchen" loading="lazy">
 								</picture>
 							</div>
 							<div class="project__firstrow-about">
@@ -244,7 +264,7 @@
 								<div class="project__firstrow-name">
 									<h3 class="project__firstrow-subtitle">Eyewear store interior</h3>
 									<div class="project__firstrow-sublink">
-										<a href="#">Discover more</a>
+										<a title="Discover more" href="#">Discover more</a>
 									</div>
 								</div>
 							</div>
@@ -254,7 +274,7 @@
 								<picture>
 									<source type="image/webp" srcset="img/main/project/img2.webp">
 									<source type="image/png" srcset="img/main/project/img2.png">
-									<img src="img/main/project/img2.webp" alt="kitchen">
+									<img src="img/main/project/img2.webp"  alt="Kitchen" title="Kitchen" loading="lazy">
 								</picture>
 							</div>
 							<div class="project__firstrow-about">
@@ -266,7 +286,7 @@
 								<div class="project__firstrow-name">
 									<h3 class="project__firstrow-subtitle">Minimalist style home</h3>
 									<div class="project__firstrow-sublink">
-										<a href="#">Discover more</a>
+										<a title="Discover more" href="#">Discover more</a>
 									</div>
 								</div>
 							</div>
@@ -279,12 +299,12 @@
 								<picture class="project__secondrow-imagedesc">
 									<source type="image/webp" srcset="img/main/project/img3.webp">
 									<source type="image/png" srcset="img/main/project/img3.png">
-									<img src="img/main/project/img3.webp" alt="room">
+									<img src="img/main/project/img3.webp" alt="Kitchen" title="Kitchen" loading="lazy">
 								</picture>
 								<picture class="project__secondrow-imagetablet">
 									<source type="image/webp" srcset="img/main/project/img4.webp">
 									<source type="image/png" srcset="img/main/project/img4.png">
-									<img src="img/main/project/img4.webp" alt="room">
+									<img src="img/main/project/img4.webp" alt="Kitchen" title="Kitchen" loading="lazy">
 								</picture>
 							</div>
 							<div class="project__firstrow-about">
@@ -297,7 +317,7 @@
 									<h3 class="project__firstrow-subtitle project__secondrow-subtitle">Residence by the
 										lighthouse</h3>
 									<div class="project__firstrow-sublink project__secondrow-sublink">
-										<a href="#">Discover more</a>
+										<a title="Discover more" href="#">Discover more</a>
 									</div>
 								</div>
 							</div>
@@ -310,7 +330,7 @@
 								<picture>
 									<source type="image/webp" srcset="img/main/project/img4.webp">
 									<source type="image/png" srcset="img/main/project/img4.png">
-									<img src="img/main/project/img4.webp" alt="room">
+									<img src="img/main/project/img4.webp" alt="Kitchen" title="Kitchen" loading="lazy">
 								</picture>
 							</div>
 							<div class="project__firstrow-about">
@@ -322,18 +342,18 @@
 								<div class="project__firstrow-name">
 									<h3 class="project__firstrow-subtitle">Eyewear store interior</h3>
 									<div class="project__firstrow-sublink">
-										<a href="#">Discover more</a>
+										<a title="Discover more" href="#">Discover more</a>
 									</div>
 								</div>
 							</div>
 						</div>
 						<div class="project__firstrow-imagesbox project__thirdrow-imagebox">
-							<a class="project__thirdrow-link" href="#">See more 60 projects</a>
+							<a title="See more" class="project__thirdrow-link" href="#">See more 60 projects</a>
 							<div class="project__thirdrow-image">
 								<picture>
 									<source type="image/webp" srcset="img/main/project/img5.webp">
 									<source type="image/png" srcset="img/main/project/img5.png">
-									<img src="img/main/project/img5.webp" alt="kitchen">
+									<img src="img/main/project/img5.webp" alt="Kitchen" title="Kitchen" loading="lazy">
 								</picture>
 							</div>
 						</div>
@@ -341,59 +361,59 @@
 
 					<div class="project__gallery">
 						<div class="project__gallery-verticaltext">
-							<img src="img/main/project/request.svg" alt="make request">
+							<img src="img/main/project/request.svg" alt="make request" title="make request">
 						</div>
 						<h3 class="project__gallery-title">Lorem ipsum dolor <br> sit amet, consectetur adipiscing elit. </h3>
 						<div class="project__gallery-imgbox">
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery1.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery1.png">
-								<img src="img/main/gallery/gallery1.webp" alt="room">
+								<img src="img/main/gallery/gallery1.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery2.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery2.png">
-								<img src="img/main/gallery/gallery2.webp" alt="room">
+								<img src="img/main/gallery/gallery2.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery3.1.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery3.1.png">
-								<img src="img/main/gallery/gallery3.1.webp" alt="room">
+								<img src="img/main/gallery/gallery3.1.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery3.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery3.png">
-								<img src="img/main/gallery/gallery3.webp" alt="room">
+								<img src="img/main/gallery/gallery3.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery4.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery4.png">
-								<img src="img/main/gallery/gallery4.webp" alt="room">
+								<img src="img/main/gallery/gallery4.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery5.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery5.png">
-								<img src="img/main/gallery/gallery5.webp" alt="room">
+								<img src="img/main/gallery/gallery5.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery6.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery6.png">
-								<img src="img/main/gallery/gallery6.webp" alt="room">
+								<img src="img/main/gallery/gallery6.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery3.1.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery3.1.png">
-								<img src="img/main/gallery/gallery3.1.webp" alt="room">
+								<img src="img/main/gallery/gallery3.1.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery9.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery9.png">
-								<img src="img/main/gallery/gallery9.webp" alt="room">
+								<img src="img/main/gallery/gallery9.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 							<picture>
 								<source type="image/webp" srcset="img/main/gallery/gallery10.webp">
 								<source type="image/png" srcset="img/main/gallery/gallery10.png">
-								<img src="img/main/gallery/gallery10.webp" alt="room">
+								<img src="img/main/gallery/gallery10.webp" alt="Room" title="Room" loading="lazy">
 							</picture>
 
 						</div>
@@ -406,14 +426,12 @@
 							<button class="project__gallery-btn make-btn">Make request</button>
 						</div>
 					</div>
-
-
 				</div>
 			</section>
 			<section class="email">
 				<div class="email__container">
 					<div class="email__content">
-						<a href="mailto:@lorem.ipsum" class="email__content-post">@lorem.ipsum</a>
+						<a title="Email" href="mailto:@lorem.ipsum" class="email__content-post">@lorem.ipsum</a>
 						<p class="email__content-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 							ullamcorper eu mauris vitae posuere. </p>
 					</div>
@@ -421,42 +439,42 @@
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email1.webp">
 							<source type="image/png" srcset="img/main/email/email1.png">
-							<img src="img/main/email/email1.webp" alt="room">
+							<img src="img/main/email/email1.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email2.webp">
 							<source type="image/png" srcset="img/main/email/email2.png">
-							<img src="img/main/email/email2.webp" alt="room">
+							<img src="img/main/email/email2.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email3.webp">
 							<source type="image/png" srcset="img/main/email/email3.png">
-							<img src="img/main/email/email3.webp" alt="room">
+							<img src="img/main/email/email3.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email4.webp">
 							<source type="image/png" srcset="img/main/email/email4.png">
-							<img src="img/main/email/email4.webp" alt="room">
+							<img src="img/main/email/email4.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email5.webp">
 							<source type="image/png" srcset="img/main/email/email5.png">
-							<img src="img/main/email/email5.webp" alt="room">
+							<img src="img/main/email/email5.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email6.webp">
 							<source type="image/png" srcset="img/main/email/email6.png">
-							<img src="img/main/email/email6.webp" alt="room">
+							<img src="img/main/email/email6.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email7.webp">
 							<source type="image/png" srcset="img/main/email/email7.png">
-							<img src="img/main/email/email7.webp" alt="room">
+							<img src="img/main/email/email7.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 						<picture>
 							<source type="image/webp" srcset="img/main/email/email8.webp">
 							<source type="image/png" srcset="img/main/email/email8.png">
-							<img src="img/main/email/email8.webp" alt="room">
+							<img src="img/main/email/email8.webp" alt="Room" title="Room" loading="lazy">
 						</picture>
 					</div>
 				</div>
@@ -465,7 +483,7 @@
 				<div class="contacts__container">
 					<div class="contacts__content">
 						<div class="contacts__content-vertical">
-							<img src="img/main/contact/contact.svg" alt="">
+							<img src="img/main/contact/contact.svg" alt="contact text" title="contact text">
 						</div>
 						<div class="contacts__content-column">
 							<h2 class="contacts__content-title">Drop us a line</h2>
@@ -477,37 +495,35 @@
 					</div>
 			
 					<div class="contacts__city">
-			
 						<div class="contacts__city-item">
 							<div class="contacts__city-row">
-			
 								<div class="contacts__city-kyiv">
-									<h3 class="contacts__city-title">Kyiv</h3>
+									<h4 class="contacts__city-title">Kyiv</h4>
 									<ul class="contacts__city-list">
-										<li><a href="tel:(209) 555-0104">(209) 555-0104</a></li>
+										<li><a  title="Number phone" href="tel:(209) 555-0104">(209) 555-0104</a></li>
 										<li>6391 Elgin St. Celina,</li>
 										<li>Delaware 10299</li>
 									</ul>
 								</div>
 								<div class="contacts__city-lviv">
-									<h3 class="contacts__city-title">Lviv</h3>
+									<h4 class="contacts__city-title">Lviv</h4>
 									<ul class="contacts__city-list">
-										<li><a href="tel:(209) 555-0104">(209) 555-0104</a></li>
+										<li><a  title="Number phone" href="tel:(209) 555-0104">(209) 555-0104</a></li>
 										<li>6391 Elgin St. Celina,</li>
 										<li>Delaware 10299</li>
 									</ul>
 								</div>
 								<div class="contacts__city-kharkiv">
-									<h3 class="contacts__city-title">Kharkiv</h3>
+									<h4 class="contacts__city-title">Kharkiv</h4>
 									<ul class="contacts__city-list">
-										<li><a href="tel:(209) 555-0104">(209) 555-0104</a></li>
+										<li><a title="Number phone" href="tel:(209) 555-0104">(209) 555-0104</a></li>
 										<li>6391 Elgin St. Celina,</li>
 										<li>Delaware 10299</li>
 									</ul>
 								</div>
 							</div>
 							<div class="contacts__city-info">
-								<a href="mailto:info@gmail.com">info@gmail.com</a>
+								<a title="Email" href="mailto:info@gmail.com">info@gmail.com</a>
 								<div class="contacts__city-loc">
 									<p>Fb</p>
 									<p>In</p>
@@ -520,7 +536,7 @@
 								<button class="make-btn">Make request</button>
 							</div>
 							<div class="contacts__city-subinfo contact__city-info">
-								<a href="mailto:info@gmail.com">info@gmail.com</a>
+								<a title="Email" href="mailto:info@gmail.com">info@gmail.com</a>
 								<div class="contacts__city-loc">
 									<p>Fb</p>
 									<p>In</p>
@@ -529,25 +545,19 @@
 							</div>
 						</div>
 					</div>
-			
-			
 				</div>
 			</section>
-			
-		
-			
 		</main> 
 		<div class="popup ">
    <button class="popup__close">
-      <img src="img/main/close.svg" alt="close-btn">
+      <img src="img/main/close.svg" alt="close-btn" title="close-btn">
    </button>
 
    <div class="popup__container">
       <form class="popup__form">
          <fieldset class="popup__form-first popup__first">
             <h2 class="popup__first-title">Calculate the cost of work</h2>
-            <h3 class="popup__first-subtitle">Make request</h3>
-
+            <h5 class="popup__first-subtitle">Make request</h5>
             <div class="popup__first-name">
                <input class="popup__first-inp" type="text" id="name" name="name" placeholder="Name" required>
 
@@ -565,7 +575,7 @@
 
                <div class="popup__first-select">
                   <span class="popup__first-current">Property type</span>
-                  <div class="popup__first-arrow"><img src="img/main/arrow-down.svg" alt="arrow-down"></div>
+                  <div class="popup__first-arrow"><img src="img/main/arrow-down.svg" alt="arrow-down" title="arrow-down"></div>
                   <ul class="popup__first-list">
                      <li class="popup__first-item">House</li>
                      <li class="popup__first-item">Apartment</li>
@@ -580,7 +590,7 @@
             </div>
          </fieldset>
          <fieldset class="popup__form-second popup__second">
-            <h2 class="popup__second-title">Area (m2)</h2>
+            <h4 class="popup__second-title">Area (m2)</h4>
             <div class="popup__second-row">
                <div class="popup__second-box">
                   <label for="to50">to 50</label>
@@ -661,7 +671,6 @@
 
 </div>
 		
-
 	</div>
 	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 	<script src="js/app.min.js"></script>
