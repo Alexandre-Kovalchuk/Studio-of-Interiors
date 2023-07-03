@@ -5,8 +5,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description" content="Студія інтер'єрів - професійні проектування та оформлення приміщень. Унікальні та функціональні інтер'єри для житлових, комерційних та офісних приміщень.">
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css?_v=20230630180955" />
-	<link rel="stylesheet" href="css/style.min.css?_v=20230630180955">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css">
 	<title>News</title>
 </head>
 
@@ -46,27 +46,25 @@
       <main class="main">
          <section class="news">
             <div class="news__container">
-
                <div class="news__content">
-                  <h2 class="news__content-title">Our latest news</h2>
+                  <h1 class="news__content-title">Our latest news</h1>
                   <div class="news__content-tabs">
                      <div class="news__content-dropdown  dropdown">
                         <button class="news__content-dropbtn dropbtn">
                            News
-                           <img src="img/main/project/arrow.svg">
+                           <img src="img/main/project/arrow.svg" alt="Arrow" title="Arrow">
                         </button>
                         <div class="news__content-dropdown-select dropdown-content">
-                           <a class="active" href="#">All</a>
-                           <a href="#">Blog</a>
-                           <a href="#">News</a>
-                           <a href="#">Advice from the designer</a>
+                           <a title="All" class="active" href="#">All</a>
+                           <a title="Blog" href="#">Blog</a>
+                           <a title="News" href="#">News</a>
+                           <a title="Advice" href="#">Advice from the designer</a>
                         </div>
                      </div>
                   </div>
                </div>
 
                <div class="news__column">
-
                   <div class="news__column-firstrow">
                      <div class="news__column-imgbox">
                         <div class="news__column-img news__img">
@@ -78,7 +76,7 @@
                                     elit. Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam
                                     tempus pellentesque ligula ut aliquam.</p>
                                  <div class="news__column-link">
-                                    <a href="oneNews.html">Discover more</a>
+                                    <a title="Discover more" href="oneNews.html">Discover more</a>
                                  </div>
                               </div>
                            </div>
@@ -90,7 +88,7 @@
                            <picture>
                               <source type="image/webp" srcset="img/main/project/img8.webp">
                               <source type="image/png" srcset="img/main/project/img8.png">
-                              <img src="img/main/project/img8.webp" alt="Living room">
+                              <img src="img/main/project/img8.webp" alt="Living room" title="Living room" loading="lazy">
                            </picture>
                         </div>
                      </div>
@@ -102,7 +100,7 @@
                            <picture>
                               <source type="image/webp" srcset="img/main/project/img2.webp">
                               <source type="image/png" srcset="img/main/project/img2.png">
-                              <img src="img/main/project/img2.webp" alt="Living room">
+                              <img src="img/main/project/img2.webp"  alt="Living room" title="Living room" loading="lazy">
                            </picture>
                         </div>
                         <div class="news__column-name">
@@ -129,7 +127,7 @@
                            <picture>
                               <source type="image/webp" srcset="img/main/project/img8.webp">
                               <source type="image/png" srcset="img/main/project/img8.png">
-                              <img src="img/main/project/img8.webp" alt="Living room">
+                              <img src="img/main/project/img8.webp"  alt="Living room" title="Living room" loading="lazy">
                            </picture>
                         </div>
                      </div>
@@ -146,7 +144,7 @@
                                     elit. Cras vel gravida urna. Donec blandit sapien eu diam ullamcorper euismod. Nam
                                     tempus pellentesque ligula ut aliquam.</p>
                                  <div class="news__column-link">
-                                    <a href="oneProject.html">Discover more</a>
+                                    <a title="Discover more" href="oneProject.html">Discover more</a>
                                  </div>
                               </div>
                            </div>
@@ -158,15 +156,15 @@
                </div>
 
                <div class="news__pagination">
-                  <a href="#"><img src="img/news/arrow-right.svg" alt="arrow-right"></a>
+                  <a title="Arrow right" href="#"><img src="img/news/arrow-right.svg" alt="arrow-right" title="Arrow right"></a>
                   <div class="news__pagination-page">
-                     <a href="#">01</a>
-                     <a href="#">02</a>
-                     <a href="#">03</a>
+                     <a title="Number page" href="#">01</a>
+                     <a title="Number page" href="#">02</a>
+                     <a title="Number page" href="#">03</a>
                      <span>...</span>
-                     <a href="#">15</a>
+                     <a title="Number page" href="#">15</a>
                   </div>
-                  <a href="#"><img src="img/news/arrow-left.svg" alt="arrow-left"></a>
+                  <a title="Arrow left" href="#"><img src="img/news/arrow-left.svg" alt="arrow-left" title="Arrow left"></a>
                </div>
 
             </div>
@@ -182,13 +180,11 @@
                      </p>
                      <form class="news-banner__content-form">
                         <input type="email" placeholder="Email">
-                        <button type="submit"><img src="img/news/input-arrow.svg" alt=""></button>
+                        <button type="submit"><img src="img/news/input-arrow.svg" alt="Arrow" title="Arrow"></button>
                      </form>
                   </div>
                </div>
-
             </div>
-
          </section>
       </main>
       <div class="popup ">
@@ -316,8 +312,8 @@
       
 
    </div>
-	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js?_v=20230630180955"></script>
-	<script src="js/app.min.js?_v=20230630180955"></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="js/app.min.js"></script>
 </body>
 
 </html>
